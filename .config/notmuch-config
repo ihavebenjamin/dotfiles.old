@@ -1,0 +1,14 @@
+[database]
+path=/home/benjamin/.local/share/mail
+[user]
+name=Benjamin Anderson
+primary_email=banjamin.anderson@zoho.com
+[new]
+tags=unread;inbox;
+ignore=
+[search]
+exclude_tags=deleted;spam;
+[maildir]
+synchronize_flags=true
+[crypto]
+gpg_path=gpg
