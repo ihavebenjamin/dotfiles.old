@@ -14,12 +14,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/benjamin/.config
-	powerline-shell
-5
-d/home/benjamin/.config/powerline-shell
-	segments
-1
 d/home/benjamin/.config/powerline-shell/segments
 	batterypl
 4
@@ -71,6 +65,15 @@ d/home/benjamin/.config/powerline-shell
 d/home/benjamin/.config/powerline-shell/segments
 	batterypl
 4
+d/home/benjamin
+	.password-store
+11
+d/home/benjamin/.password-store
+	..
+0
+d/home/benjamin
+	.password-store
+11
 
 # Right window history (oldest to newest):
 D/home/benjamin
