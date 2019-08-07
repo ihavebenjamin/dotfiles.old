@@ -160,7 +160,7 @@ hi CursorColumn cterm=NONE ctermbg=black
 	map <leader><leader> <Esc>/<++><Enter>"_c4l
 	"}}}
 "}}}
-sdkhfsdk
+
 "{{{ GOFF/MOM
 	" Definitions
 
