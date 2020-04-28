@@ -1,0 +1,27 @@
+# vim: filetype=neomuttrc
+# muttrc file for account zoho
+set realname = "Benjamin Anderson"
+set from = "benjamin.anderson@zoho.com"
+set sendmail = "msmtp -a zoho"
+alias me Benjamin Anderson <benjamin.anderson@zoho.com>
+set folder = "/home/benjamin/.local/share/mail/zoho"
+set header_cache = /home/benjamin/.cache/mutt-wizard/zoho/headers
+set message_cachedir = /home/benjamin/.cache/mutt-wizard/zoho/bodies
+set mbox_type = Maildir
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index,pager M noop
+bind index,pager C noop
+bind index gg first-entry
+unmailboxes *
+unvirtual-mailboxes *
+
+set nm_default_uri = "notmuch:///home/benjamin/.local/share/mail"
+virtual-mailboxes "All Mail" "notmuch://?query=*"
+
+set vfolder_format = "%6n(%6N) %m"
+set virtual_spoolfile
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"

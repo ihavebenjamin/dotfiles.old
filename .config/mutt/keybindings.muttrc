@@ -1,0 +1,50 @@
+# vim: filetype=neomuttrc
+
+#{{{ Keybindings
+
+#{{{ General rebindings
+bind index,pager,browser d half-down
+bind index,pager,browser u half-up
+bind attach <return> view-mailcap
+bind attach l view-mailcap
+bind editor <space> noop
+bind browser h goto-parent
+bind browser l select-entry
+#
+#{{{2 index
+bind index G last-entry
+bind index gg first-entry
+bind index U undelete-message
+bind index L limit
+bind index h noop
+bind index l display-message
+#
+#{{{2 index,pager
+bind index,pager S sync-mailbox
+bind index,pager R group-reply
+bind pager,attach h exit
+#
+#{{{2 pager
+bind pager j next-line
+bind pager k previous-line
+bind pager l view-attachments
+bind index D delete-message
+#
+#{{{2 pager,browser
+bind pager,browser gg top-page
+bind pager,browser G bottom-page
+#{{{ sidebar
+bind index,pager \Ck sidebar-prev
+bind index,pager \Cj sidebar-next
+bind index,pager \Co sidebar-open
+bind index,pager \Cp sidebar-prev-new
+bind index,pager \Cn sidebar-next-new
+bind index,pager B sidebar-toggle-visible
+
+#{{{2 macros
+macro index,pager a "|abook --add-email\n" 'add sender to abook'
+macro index \Cr "T~U<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "mark all messages as read"
+macro index O "<shell-escape>mailsync -Va<enter>" "run offlineimap to sync all mail"
+macro index \Cf "<enter-command>unset wait_key<enter><shell-escape>read -p 'Enter a search term to find with notmuch: ' x; echo \$x >~/.cache/mutt_terms<enter><limit>~i \"\`notmuch search --output=messages \$(cat ~/.cache/mutt_terms) | head -n 600 | perl -le '@a=<>;s/\^id:// for@a;$,=\"|\";print@a' | perl -le '@a=<>; chomp@a; s/\\+/\\\\+/ for@a;print@a' \`\"<enter>" "show only messages matching a notmuch pattern"
+macro index A "<limit>all\n" "show all messages (undo limit)"
+

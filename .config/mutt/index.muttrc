@@ -1,0 +1,17 @@
+# vim: filetype=neomuttrc
+set sort = 'reverse-threads'
+
+color indicator brightblack color8
+# Default index colors:
+color index yellow default '.*'
+color index_author red default '.*'
+color index_subject cyan default '.*'
+
+# New mail is boldened:
+color index brightblack brightwhite "~N"
+color index_author brightblack brightwhite "~N"
+color index_subject brightblack brightwhite "~N"
+
+
+set date_format="%m/%d/%y  %I:%M%p"
+set index_format=" %2C %zs %?X?A& ? %D   %-20.20F   %s "

@@ -1,0 +1,6 @@
+text/plain; $EDITOR %s ;
+text/html; wkhtmltopdf - - | zathura - &; copiousoutput;
+image/*; muttimage %s ; copiousoutput
+video/*; setsid mpv --quiet %s &; copiousoutput
+application/pdf; openfile %s ;
+application/pgp-encrypted; gpg -d '%s'; copiousoutput;

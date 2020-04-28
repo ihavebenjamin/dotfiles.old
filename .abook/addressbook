@@ -1,0 +1,465 @@
+# abook addressbook file
+
+[format]
+program=abook
+version=0.6.1
+
+
+[0]
+name=Abby Louwrse
+mobile=(712) 449-5766
+
+[1]
+name=Abednigo Reebs
+mobile=+1 503-419-7505
+
+[2]
+name=Addison
+mobile=+1 925-487-8504
+
+[3]
+name=Allison Nicholas
+mobile=17605741515
+
+[4]
+name=Andy Maurer
+mobile=+1 480-720-0208
+
+[5]
+name=Atrium Court Apartment Homes
+
+[6]
+name=Aunt Jayne Avila
+email=jaatpb@comcast.net
+workphone=1 510-262-9572
+mobile=1 510-417-0065
+
+[7]
+name=Becca Jensen
+mobile=+1 925-768-7100
+
+[8]
+name=Brain Rose
+mobile=+1 925-575-0600
+
+[9]
+name=Brandan Tong
+mobile=+1 925-787-3729
+
+[10]
+name=Brennan Spezia
+mobile=+1 916-749-2696
+
+[11]
+name=Brett Luekfeld
+mobile=14085411014
+
+[12]
+name=brick826slue@m.facebook.com
+email=brick826slue@m.facebook.com
+mobile=32665
+
+[13]
+name=Bridget Poon
+mobile=+1 925-478-0193
+
+[14]
+name=Brinn Lueckfeld
+mobile=4088575612
+
+[15]
+name=Carole Jensen
+mobile=+1 925-768-9118
+
+[16]
+name=Carol Luekfeld
+mobile=14088574505
+
+[17]
+name=Chase
+mobile=+1 925-360-1402
+
+[18]
+name=Chris Pulpaneck
+email=pulpaneck@gmail.com
+city=Frisco
+state=Texas
+country=United States
+url=www.legacypromos.com
+anniversary=16040304
+
+[19]
+name=Christian Gomez
+mobile=(559) 733-1350
+
+[20]
+name=Christina McShane
+mobile=(602) 550-1724
+
+[21]
+name=Christopher Groppi
+email=cgroppi@asu.edu
+address=781 S Terrace Rd
+city=Tempe
+state=AZ
+zip=85281
+country=USA
+notes=Exit elevator\, turn left\, turn left\, first office.
+
+[22]
+name=Davorn's Place
+mobile=+1 559-733-4885
+
+[23]
+name=Deanna Aguilar
+mobile=+1 480-622-8246
+
+[24]
+name=Derry
+mobile=(925) 766-7725
+
+[25]
+name=Don Pulpanack
+mobile=(925)�984-6873
+
+[26]
+name=Eli Anderson
+email=peppera317oa@hotmail.com
+address=PO Box 160
+city=Sheldon
+state=IA
+zip=51201
+phone=712-722-0841
+workphone=800-247-0186
+mobile=712-449-0032
+
+[27]
+name=Elijah Breon
+address=5437 Louisiana Dr
+city=Concord
+state=CA
+zip=94521
+mobile=+1 925-787-9679
+
+[28]
+name=Erik P. Makinen
+email=erik.p.makinen@nasa.gov
+
+[29]
+name=Erin Chelgren
+mobile=(623) 521-1424
+
+[30]
+name=Evan Swasey
+email=evancswasey@comcast.net
+mobile=925 786 2218
+
+[31]
+name=Evernote Upload
+email=jamin182.57d2ca3@m.evernote.com
+
+[32]
+name=Facebook
+email=nylons532yummy@m.facebook.com
+mobile=32665
+
+[33]
+name=Gary Anderson
+email=gjemb5a@gmail.com
+mobile=19253488990
+notes=Gender: Male
+
+[34]
+name=Google
+workphone=+1 (650) 253-0000
+
+[35]
+name=Google Login Varification
+mobile=224-444
+
+[36]
+name=Grandpa John Avila
+email=johnavila1928@sbcglobal.net
+address=1525 De Ve Ave
+city=Modesto
+state=CA
+zip=95350
+phone=1 209-523-9060
+mobile=1 209-499-0269
+
+[37]
+name=Greg Ligman
+mobile=(925) 451-3599
+
+[38]
+name=Janice Anderson
+mobile=16508684708
+
+[39]
+name=Jason Moon
+mobile=(925) 876-0790
+
+[40]
+name=Jenelle Forbes
+email=jenjello9@yahoo.com
+mobile=(510)415-1508
+
+[41]
+name=Jensen Home
+mobile=19252282045
+
+[42]
+name=Jill Anderson
+mobile=+19253488987
+nick=Mom
+
+[43]
+name=John Lynch
+mobile=+1 602-796-3243
+
+[44]
+name=Jonathan Micklis
+mobile=(623) 734-3105
+
+[45]
+name=Joseph Gusenkov
+mobile=(925) 446-7892
+
+[46]
+name=Josiah
+mobile=(925) 605-9826
+
+[47]
+name=Julia Riller
+mobile=(209) 271-7200
+
+[48]
+name=Julie Nicholas
+email=Julie_Nicholas@yahoo.com
+mobile=510 415-3484
+
+[49]
+name=Karina Gilad
+email=kg2850@centerforautism.com
+
+[50]
+name=Kathy Anderson
+email=katyoosha.g@gmail.com
+address=Apt 266 2323 W Dunlap Ave
+city=Phoenix
+state=AZ
+zip=85021
+mobile=+1 925-681-9973
+nick=My Bae
+anniversary=19961230
+
+[51]
+name=Kindle Documents
+email=i.have.ben.jamin_89@kindle.com
+
+[52]
+name=Kylee Curcini
+
+[53]
+name=Lexi
+mobile=+1 808-756-5753
+
+[54]
+name=Mal'aki Butow
+phone=+1 707-357-6239
+mobile=+1 707-684-9951
+
+[55]
+name=Mallory Anderson
+mobile=9253488985
+
+[56]
+name=Maria Gusenkov
+mobile=+1 925-818-3056
+
+[57]
+name=Mark Miller
+email=opines65@gmail.com
+address=784 St George Rd
+city=Danville
+state=CA
+zip=94526
+
+[58]
+name=Matt Matoon
+mobile=+1 925-786-7448
+
+[59]
+name=Mikayla
+mobile=+1 925-808-1150
+
+[60]
+name=Mike Hill
+mobile=925-580-9868
+
+[61]
+name=Misha Gusenkov
+mobile=(925) 408-8631
+
+[62]
+name=Mr. Porter
+mobile=+1 559-909-0010
+
+[63]
+name=Mrs. Swasey
+mobile=(925) 915-1675
+
+[64]
+name=Nathan Jensen
+
+[65]
+name=Nicholas Royce
+mobile=16195497780
+
+[66]
+name=Olga Gusenkov
+mobile=+1 925-787-5807
+
+[67]
+name=Osaka Sushi
+mobile=+1 559-622-9988
+
+[68]
+name=Paul Anderson
+mobile=6508684718
+
+[69]
+name=Paypal
+mobile=729-725
+
+[70]
+name=PCC
+mobile=+1 888-249-7691
+
+[71]
+name=PHO CARD OFFICE
+mobile=+1 480-372-2130
+
+[72]
+name=Phyllis Pulpaneck
+mobile=19259846872
+
+[73]
+name=Pre Phoenix Prefontaine
+mobile=+1 760-707-8477
+
+[74]
+name=Rafael Pérez
+mobile=+1 480-323-8303
+
+[75]
+name=Renee
+workphone=+1 (925) 471-2275
+
+[76]
+name=Riley Yarra
+mobile=+1 925-577-7852
+
+[77]
+name=Rod Nicholas
+email=nicholasrod@yahoo.com
+mobile=1 510-415-3483
+
+[78]
+name=Roxane Thorstad
+
+[79]
+name=Roxanne Thornstad
+mobile=+1 602-349-7583
+
+[80]
+name=Royce Nicholas
+email=Roycenicholas@gmail.com
+mobile=1 619-549-7780
+
+[81]
+name=Ruth Matoon
+mobile=+1 925-787-3205
+
+[82]
+name=Sam I Am
+mobile=(303) 961-7575
+
+[83]
+name=Sarah Breon
+mobile=(925) 787-0828
+
+[84]
+name=Sarah Noble
+mobile=+1 925-895-3218
+
+[85]
+name=Seth Carpenter
+mobile=+1 925-771-4080
+
+[86]
+name=Shanghai Chinese
+mobile=+1 559-738-1688
+
+[87]
+name=Smooth Season
+mobile=+1 925-372-3366
+
+[88]
+name=Stephen Poe
+mobile=+1 925-956-3920
+
+[89]
+name=Teddy Richeson
+mobile=+1 925-808-8056
+
+[90]
+name=Terra Jean Gifford
+mobile=+1 925-822-8276
+
+[91]
+name=Terry Thorstad
+email=terry.journeys@gmail.com,terry.thorstad@gmail.com,terry.thorstad@journeyscounselingaz.com,terry.thorstad@apollogrp.edu
+mobile=6023497577
+
+[92]
+name=Tim Jensen
+mobile=19253484684
+
+[93]
+name=Todd Lout
+mobile=+1 707-373-5043
+
+[94]
+name=Torin
+mobile=+1 480-335-0137
+
+[95]
+name=Victoria
+mobile=+1 510-825-5818
+
+[96]
+name=Vika
+mobile=+1 707-631-1045
+
+[97]
+name=Vincent Pueyo
+mobile=+1 602-535-7009
+
+[98]
+name=Vitaliy Gusenkov
+mobile=(925) 381-2147
+
+[99]
+name=Vladimir Gusenkov
+mobile=+1 925-787-5826
+
+[100]
+name=Zac Jensen
+email=zacisawhitestallion@gmail.com
+mobile=+1 925-768-4293
+
+[101]
+name=Zen
+mobile=+1 559-636-3288
+

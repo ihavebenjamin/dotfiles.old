@@ -1,0 +1,3 @@
+#!/bin/sh
+channel="$(cat $HOME/.channels | rofi -dmenu -l 10 -f -p "Choose Channel")" || exit
+qtwebflix -p "www.$channel.com"
