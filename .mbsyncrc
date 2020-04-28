@@ -1,1 +1,100 @@
+IMAPStore zoho-remote
+Host imap.zoho.com
+Port  993
+User benjamin.anderson@zoho.com
+PassCmd "pass mutt-wizard-zoho"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore zoho-local
+Subfolders Verbatim
+Path ~/.local/share/mail/zoho/
+Inbox ~/.local/share/mail/zoho/INBOX
+Flatten .
+
+Channel zoho
+Expunge Both
+Master :zoho-remote:
+Slave :zoho-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
+
+
+
+IMAPStore asu-remote
+Host imap.gmail.com
+Port  993
+User blande27@asu.edu
+PassCmd "pass mutt-wizard-asu"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore asu-local
+Subfolders Verbatim
+Path ~/.local/share/mail/asu/
+Inbox ~/.local/share/mail/asu/INBOX
+Flatten .
+
+Channel asu
+Expunge Both
+Master :asu-remote:
+Slave :asu-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
+
+
+
+IMAPStore maricopa-remote
+Host imap.gmail.com
+Port  993
+User ben2166287@maricopa.edu
+PassCmd "pass mutt-wizard-maricopa"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore maricopa-local
+Subfolders Verbatim
+Path ~/.local/share/mail/maricopa/
+Inbox ~/.local/share/mail/maricopa/INBOX
+Flatten .
+
+Channel maricopa
+Expunge Both
+Master :maricopa-remote:
+Slave :maricopa-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
+
+IMAPStore old-gmail-remote
+Host imap.gmail.com
+Port  993
+User i.have.ben.jamin@gmail.com
+PassCmd "pass mutt-wizard-old-gmail"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore old-gmail-local
+Subfolders Verbatim
+Path ~/.local/share/mail/old-gmail/
+Inbox ~/.local/share/mail/old-gmail/INBOX
+Flatten .
+
+Channel old-gmail
+Expunge Both
+Master :old-gmail-remote:
+Slave :old-gmail-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
 

@@ -3,11 +3,11 @@ let mapleader =","
 " PLUGINS{{{
 
 "{{{ Plug Config
-if ! filereadable(expand('~/.config/vim/autoload/plug.vim'))
-	echo "Downloading junegunn/vim-plug to manage plugins..."
-	silent !mkdir -p ~/.config/nvim/autoload/
-	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
-endif
+"if ! filereadable(expand('~/.config/vim/autoload/plug.vim'))
+	"echo "Downloading junegunn/vim-plug to manage plugins..."
+	"silent !mkdir -p ~/.config/nvim/autoload/
+	"silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
+"endif
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
@@ -27,6 +27,9 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'junegunn/vim-easy-align'
+Plug 'scrooloose/syntastic'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 "}}}
 
@@ -39,6 +42,8 @@ call plug#end()
 
 "{{{ NERDTree
 map <C-n> :NERDTreeToggle<CR>
+let g:webdevicons_enable_nerdtree = 1
+
 "}}}
 
 "{{{ vimlatex
@@ -49,6 +54,23 @@ let g:vimtex_fold_manual = 1
 let g:vimtex_latexmk_continuous = 1
 let g:vimtex_compiler_progname = 'latexmk'
 let g:vimtex_view_method = 'zathura'
+"}}}
+
+"{{{ AirLine Theme
+let g:airline_theme='luna'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline_detect_paste=1
+"}}}
+
+"{{{ EasyAlign
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+"}}}
+
 "}}}
 
 "{{{ SET
@@ -71,11 +93,6 @@ set guicursor+=n-v-c:blinkon0
 	syntax on
 	set encoding=utf-8
 	set number relativenumber
-"}}}
-
-"{{{ AirLine Theme
-let g:airline_theme='molokai'
-"}}}
 "}}}
 
 "{{{ Colorscheme
@@ -126,12 +143,6 @@ hi CursorColumn cterm=NONE ctermbg=black
 " Copy selected text to system clipboard (requires gvim/nvim/vim-x11 installed):{{{
 	vnoremap <C-c> "+y
 	map <C-p> "+P
-	"}}}
-
-" Enable Goyo by default for mutt writting{{{
-	" Goyo's width will be the line limit in mutt.
-	autocmd BufRead,BufNewFile /tmp/neomutt-complex* let g:goyo_width=80
-	autocmd BufRead,BufNewFile /tmp/neomutt-complex* :Goyo | set bg=light
 	"}}}
 
 " Automatically deletes all trailing whitespace on save.{{{

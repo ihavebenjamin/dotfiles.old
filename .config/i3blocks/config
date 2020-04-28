@@ -3,6 +3,11 @@ command=~/.local/bin/statusbar/$BLOCK_NAME
 separator_block_width=16
 markup=pango
 
+[window]
+command=xdotool getactivewindow getwindowname 2>/dev/null
+interval=1
+signal=1
+
 [mediaplayer]
 instance=spotify
 interval=5
@@ -14,10 +19,10 @@ instance=mpd
 interval=5
 signal=10
 
-[record]
-command=cat /tmp/recordingicon
-interval=once
-signal=9
+#[record]
+#command=cat /tmp/recordingicon
+#interval=once
+#signal=9
 
 [volume]
 interval=once
@@ -56,6 +61,7 @@ interval=10
 color=#ffffff
 
 [internet]
+command=internet
 interval=10
 
 [battery]

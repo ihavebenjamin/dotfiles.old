@@ -8,7 +8,8 @@
 # export TERMINAL="st"
 
 # #---Basic Definitions---# #
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] client.focused          #00FF00 #285577 #ffffff #2e9ef4   #285577
 gaps inner 10
 gaps outer 3
 set $term --no-startup-id $TERMINAL
@@ -175,10 +176,11 @@ exec --no-startup-id firefox
 
 #Assi workspaces
 assign [title="neomutt"] $ws3
-assign [class="Firefox"] $ws2
+assign [class="firefox"] $ws2
 assign [title="ncmpcpp"] $ws10
 assign [title="vifm"] $ws4
 for_window [class="Spotify"] move to workspace $ws10
+for_window [class="zoom"] move to workspace $ws9
 
 # switch to workspace with urgent window automatically
 #for_window [urgent=latest] focus

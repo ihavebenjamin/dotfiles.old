@@ -25,7 +25,8 @@ map <C-s> <C-w>s
 map <C-v> <C-w>v
 
 map R :restart<CR>
-map x :!sxiv -ft * 2>/dev/null &<CR>
+map xI :!sxiv -ft * 2>/dev/null &<CR>
+map xV :!mpv --input-ipc-server=/tmp/mpvsoc$(date +%%s) *.mp4 2>/dev/null &<CR>
 nnoremap o :file &<cr>
 map E :!$EDITOR %f<CR>
 map mkd :mkdir<space>
@@ -46,7 +47,8 @@ nmap q ZQ
 fileview */ tree %c -L 1 --dirsfirst
 fileview ../ tree %c -L 1 --dirsfirst
 fileviewer *.html w3m -dump %c
-filextype *.html,*.htm firefox %f 2>/dev/null &
+filextype *.html,*.htm wkhtmltopdf -q %f - | zathura - &
+"filextype *.html,*.htm firefox %f 2>/dev/null &
 
 fileviewer *.docx docx2txt %c -
 fileviewer *.odt odt2txt %c -
